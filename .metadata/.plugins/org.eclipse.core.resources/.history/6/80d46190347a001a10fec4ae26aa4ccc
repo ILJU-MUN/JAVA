@@ -1,0 +1,11 @@
+
+public class Test15 {
+	static void recursion() {
+			System.out.println("recursion");
+			recursion();
+	}
+	public static void main(String[] args) {
+		recursion();
+	}
+
+}

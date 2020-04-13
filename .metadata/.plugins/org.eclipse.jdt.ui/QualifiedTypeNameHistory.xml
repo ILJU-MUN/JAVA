@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Test"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="javax.tools.JavaCompiler"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="A"/>
+<fullyQualifiedTypeName name="Employee"/>
+<fullyQualifiedTypeName name="Calc"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="School"/>
+<fullyQualifiedTypeName name="Student2"/>
+<fullyQualifiedTypeName name="Student3"/>
+<fullyQualifiedTypeName name="com.bcompany.Employee"/>
+<fullyQualifiedTypeName name="com.acompany.Employee"/>
+<fullyQualifiedTypeName name="BankAccount"/>
+<fullyQualifiedTypeName name="com.test.MyClass"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+<fullyQualifiedTypeName name="Dog"/>
+<fullyQualifiedTypeName name="Test8"/>
+<fullyQualifiedTypeName name="Animal"/>
+<fullyQualifiedTypeName name="Cat"/>
+<fullyQualifiedTypeName name="Database"/>
+</qualifiedTypeNameHistroy>

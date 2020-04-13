@@ -1,0 +1,28 @@
+/*
+ * 학생
+ * - 이름, 나이, 키 ....
+ * - 공부한다, 집에간다, PC방 간다...
+ * 
+ */
+class Student {
+	String name;
+	int age;
+	int height;
+	void study() {System.out.println(name + "," + age + "," + height);};
+	void gotohome() {};
+	void gotopcroom() {};
+}
+
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		Student std = new Student(); //첫번째 학생
+		std.name = "문일주";
+		std.age = 27;
+		std.height = 173;
+		
+		Student std2 = new Student(); //두번째 학생
+	}
+
+}

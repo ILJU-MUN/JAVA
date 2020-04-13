@@ -1,0 +1,15 @@
+
+public class Test12 {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.breath();
+		Cat c = new Cat();
+		c.breath();
+		
+		Animal a = new Dog();
+		a.breath();
+		
+	}
+
+}

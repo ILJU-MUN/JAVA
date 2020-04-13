@@ -1,0 +1,16 @@
+class Student3{
+	private String name;
+	private int age;
+	public void setName(String nm) {
+		name = nm;
+	}
+	
+}
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

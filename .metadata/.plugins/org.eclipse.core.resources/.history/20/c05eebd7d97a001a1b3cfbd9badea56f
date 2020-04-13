@@ -1,0 +1,25 @@
+class Student3{
+	public Student3(){
+		name = "홍길동";
+	}
+	private String name;
+	private int age;
+	
+	public void setName(String nm) {
+		name = nm;
+	}
+	public void setAge(int ag) {
+		age = ag;
+	}
+	public void gotoSchool() {
+		System.out.println(name + ", " + age + "," + "가 학교에 간다.");
+	}
+	
+}
+public class Test4 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class DbExcutor {
+
+	public static void main(String[] args) {
+		
+	//Database db = CreateDatabase("MySql");
+	//db.opne();	
+		
+	//Database db2 = CreateDatabase("Oracle");
+	//db2.opne();
+	}
+
+}

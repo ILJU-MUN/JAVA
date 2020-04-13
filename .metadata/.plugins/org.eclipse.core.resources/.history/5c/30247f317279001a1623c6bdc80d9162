@@ -1,0 +1,17 @@
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		boolean choice = true;
+		if(choice == true) {
+			System.out.println("O.K");
+		} else {
+			System.out.println("Cancel");
+		}
+		int x = 10;
+		if(x < 20) {
+			System.out.println("x < 20");
+		}
+	}
+
+}

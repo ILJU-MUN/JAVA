@@ -1,0 +1,17 @@
+class BankAccount{
+	String accNumber;   // °èÁÂ¹øÈ£
+	String ssNumber;     // ÁÖ¹Î¹øÈ£
+	int balance = 0;     // ¿¹±İ ÀÜ¾×
+	
+public void initAccount(String acc, String ss, int bal) {
+		
+	}
+}
+	
+public class P_169 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

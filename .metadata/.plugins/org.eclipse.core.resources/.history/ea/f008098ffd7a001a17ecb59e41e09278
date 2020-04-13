@@ -1,0 +1,22 @@
+
+public class Test10 {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.breath();
+		d.bark();
+		
+		Cat c = new Cat();
+		c.breath();
+		c.Meow();
+		
+		Animal a = d; //Dog객체이면서 Animal 타입
+		a.breath(); 
+		
+		Animal a1 = c; //Cat객체이면서 Animal 타입
+		a1.breath();
+				
+		Dog d2 = (Dog)a;
+	}
+
+}

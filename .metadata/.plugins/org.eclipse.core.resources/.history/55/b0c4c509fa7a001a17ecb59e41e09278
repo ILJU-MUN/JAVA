@@ -1,0 +1,12 @@
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.bark();
+		d.breath();
+		Animal a = d;
+		a.breath();
+		
+	}
+}

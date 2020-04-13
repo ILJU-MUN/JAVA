@@ -1,0 +1,16 @@
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		Animal a = new Animal();
+		Dog d = new Dog();
+		Cat c = new Cat();
+		
+		Animal a1 = d;  
+		a1.breath();
+		Dog d1 = (Dog)a1; 
+		d1.bark();
+		
+	}
+
+}

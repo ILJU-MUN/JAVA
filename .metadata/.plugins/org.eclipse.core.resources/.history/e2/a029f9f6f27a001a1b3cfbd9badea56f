@@ -1,0 +1,21 @@
+class Circle {
+	private double rad = 0;
+	final double PI = 3.14;
+	
+	public Circle(double r) {
+		serRad(r);
+	}
+	public void setRad(double r) {
+		if(r < 0) {
+			rad = 0;
+			return;
+		}
+	}
+}
+public class P_199 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

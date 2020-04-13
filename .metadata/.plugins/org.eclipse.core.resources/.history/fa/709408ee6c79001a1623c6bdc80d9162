@@ -1,0 +1,14 @@
+
+public class Test7 {
+	public static void main(String[] args) {
+		int a = 1;
+		System.out.println(a);
+		int b = a++;
+		System.out.println(b);  //b는 증가 x 
+		System.out.println(a);  //a를 호출했을때 증가
+		//System.out.println(a);
+		int a1 = 1;
+		System.out.println(a1);
+		
+	}
+}

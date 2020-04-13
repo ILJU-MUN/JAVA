@@ -1,0 +1,7 @@
+
+public class MySql {
+	public void open() {
+		System.out.println("Database Open");
+	}
+
+}

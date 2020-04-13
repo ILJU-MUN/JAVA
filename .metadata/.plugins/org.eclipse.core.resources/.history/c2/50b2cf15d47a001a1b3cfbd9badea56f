@@ -1,0 +1,38 @@
+class Student2{
+	//String name; //클래스 내에서는 위치 상관x
+	private String name; //비공개, set,get으로 설정, 가져올수 있음
+	public void setName(String nm) {
+		name = nm;
+	}
+	public String getName() {
+		return name;
+	}
+	public void gotoSchool() {
+		System.out.println(name + "이(가) 학교에 간다.");
+	}
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+		//1.
+		Student2 std2 = new Student2();
+		std2.setName("문일주");
+		std2.gotoSchool();
+		//2.
+		Student2 std3;
+		std3 = new Student2();
+		std3.setName("이순신");
+		std3.gotoSchool();
+		
+		//3.
+		/*execute(std2);*/
+		Student2 t = execute(std2);
+	}
+	/*static void execute(Student2 s) { //Student2 s = std2, 값 그대로 가져옴
+		s.gotoSchool();
+	}*/
+	static Student2 execute(Student2 s) { //Student2 s = std2, 값 그대로 가져옴
+		s.gotoSchool();
+		return s;
+	}
+}

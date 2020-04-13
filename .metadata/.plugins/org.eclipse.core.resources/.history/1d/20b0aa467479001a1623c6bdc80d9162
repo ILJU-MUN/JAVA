@@ -1,0 +1,33 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Test8 {
+
+	public static void main(String[] args) throws IOException {
+		boolean choice = true;
+		if(choice == true) {
+			System.out.println("O.K");
+		} else {
+			System.out.println("Cancel");
+		}
+		int x = 10;
+		if(x < 20) {
+			System.out.println("x < 20");
+		}
+//		int num = System.in.read();
+//		System.out.println("num : " + num);
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("name : ");
+		String name = scan.nextLine();
+		System.out.println(name);
+		
+		if(name.equals("이순신")) {
+			System.out.println("이순신 장군님 입니다.");
+		} else {
+			System.out.println("이순신 장군님이 아닙니다.");
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.zoo;
+
+class Duck{
+	public void quack() {
+		String name = "¿Àµ¹ÀÌ";
+	}
+	public void qq() {
+		System.out.println("„š„š");
+	}
+}
+
+public class Cat {
+	public void makeCat() {
+		Duck quack = new Duck();
+		quack.quack();
+		quack.qq();
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.acompany;
+
+public class Employee {
+	private String name;
+	public void setName(String nm) {
+		name = nm;
+	}
+}

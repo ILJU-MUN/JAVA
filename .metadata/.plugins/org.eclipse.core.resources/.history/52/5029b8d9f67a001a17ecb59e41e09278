@@ -1,0 +1,14 @@
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		Animal a = new Animal();
+		Dog d = new Dog();
+		Cat c = new Cat();
+		
+		Animal a1 = d;  // Animal a1 을 Dog d로 타입 체인지
+		a1.breath();
+		
+	}
+
+}

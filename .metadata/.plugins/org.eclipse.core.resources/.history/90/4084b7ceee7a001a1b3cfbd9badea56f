@@ -1,0 +1,7 @@
+
+public class Animal {
+
+	ublic void breath( ) {System.out.println("Animal breath");
+	
+	}
+}

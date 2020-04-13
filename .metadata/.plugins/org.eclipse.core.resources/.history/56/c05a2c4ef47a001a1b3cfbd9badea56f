@@ -1,0 +1,11 @@
+package com.zoo;
+class Duck{
+	//ºó Å¬·¡½º
+}
+
+public class Cat {
+	public void makeCat() {
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+class Student{
+	String name;
+	public void setName(String nm) {
+		name = nm;
+	}
+	public String getName() {
+		return name;
+	}
+	public void gotoSchool() {
+		System.out.println(name + "이 학교에 간다.");
+	}
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+
+public class Cat extends Animal{
+	public void Nack() {System.out.println("¾Ö¿Ë");}
+}
