@@ -1,0 +1,18 @@
+package com.test;
+class Animal {
+	void move() {System.out.println("Animal move");}
+
+class Dogg extends Animal{
+	void move() {System.out.println("Dog move");}
+	}
+}
+public class Test13 {
+	public static void main(String[] args) {
+		Animal a = new Animal();
+		a.move();
+		
+		Dogg d = new Dogg();
+		
+	}
+
+}

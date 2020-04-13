@@ -1,0 +1,25 @@
+package com.test2;
+class Cake{
+	public int size; // 케이크 사이즈
+	public Cake(int sz) {
+		size = sz;
+	}
+	public void showCakeSize() {
+		System.out.println("bread ounces : " + size);
+	}
+}
+
+class CheeseCake extends Cake {
+	public int size; // 치즈케이크 사이즈
+	public CheeseCake(int sz1, int sz2) {
+		super(sz1);
+		size = sz2;
+	}
+}
+public class P_341_342 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

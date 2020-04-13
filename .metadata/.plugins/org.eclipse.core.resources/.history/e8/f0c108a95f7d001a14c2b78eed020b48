@@ -1,0 +1,12 @@
+package com.test2;
+interface Cake{
+	public void showCakeSize();
+}
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

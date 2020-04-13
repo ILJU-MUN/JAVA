@@ -1,0 +1,16 @@
+package com.test;
+class A {
+	public A() {
+		System.out.println("Default Constructor A");
+	}
+}
+class B extends A {
+	
+}
+public class Test6 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

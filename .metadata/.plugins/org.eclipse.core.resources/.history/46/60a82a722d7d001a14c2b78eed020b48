@@ -1,0 +1,16 @@
+package com.test;
+class Student{
+	public void gotoSchool() {
+		System.out.println("Student go to school");
+	}
+}
+
+class MiddleStudent() {
+	
+}
+
+public class Test4 {
+	public static void main(String[] args) {
+		
+	}
+}

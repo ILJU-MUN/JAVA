@@ -1,0 +1,25 @@
+package com.test;
+class Dog{
+	public Dog() {
+		age = 1;
+		color = "Black";
+		System.out.println("Default Constructor Dog");
+	}
+	public Dog(int ag, String clr) {
+		age = ag;
+		color = clr;
+	}
+	String breed;
+	int age;
+	String color;
+	void bakring( ) {};
+	int hungry() { int a = 1; int b = 2; int c = a + b; return c; };
+	void steeping() {};
+}
+public class Test1 {
+	public static void main(String args) {
+		Dog d  = new Dog();
+		Dog d2 = new Dog(2, "‹¯Ä¥ÀÌ");
+		d.hungry()
+	}
+}

@@ -13,13 +13,14 @@ class Dog{
 	int age;
 	String color;
 	void bakring( ) {};
-	void hungry() {};
+	int hungry() { int a = 1; int b = 2; int c = a + b; return c; };
 	void steeping() {};
 }
 public class Test1 {
 	public static void main(String args) {
 		Dog d  = new Dog();
 		Dog d2 = new Dog(2, "‹¯Ä¥ÀÌ");
+		int s = d.hungry();
 		
 	}
 }

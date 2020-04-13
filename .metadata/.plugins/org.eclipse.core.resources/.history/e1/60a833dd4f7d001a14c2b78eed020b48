@@ -1,0 +1,24 @@
+package com.test;
+class A2 {
+	void aMethod() {System.out.println("aMethod");}
+}
+class B2  extends A2{
+	void bMethod() {System.out.println("bMethod");}
+}
+
+public class Test12 {
+	public static void main(String[] args) {
+		B2 b = new B2();
+		b.aMethod();
+		b.bMethod();
+		A2 a = b;
+		a.aMethod();
+		//a.bMethod(); 타입을 바꿔서 b메소드는 못씀
+		B2 c = (B2)a; //명시적 형변환
+		c.aMethod();
+		c.bMethod();
+		
+		A2 a1 = new B2();
+	}
+
+}

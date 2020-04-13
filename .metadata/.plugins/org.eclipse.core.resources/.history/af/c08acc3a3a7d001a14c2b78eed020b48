@@ -1,0 +1,15 @@
+package com.test;
+class MyClass{
+	int count;
+	public MyClass() {
+		count++;
+		System.out.println(count);
+	}
+}
+public class Test8 {
+
+	public static void main(String[] args) {
+		MyClass mc = new MyClass();
+	}
+
+}

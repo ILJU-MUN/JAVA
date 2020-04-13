@@ -1,0 +1,14 @@
+package com.test;
+class MyClass3{
+	int a;
+	static b;
+	public MyClass3() {
+		
+	}
+}
+public class Test9 {
+	public static void main(String[] args) {
+		
+	}
+
+}

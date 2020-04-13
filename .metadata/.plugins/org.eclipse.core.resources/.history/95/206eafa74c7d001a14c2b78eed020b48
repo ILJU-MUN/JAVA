@@ -1,0 +1,14 @@
+package com.test;
+
+public class Test11 {
+	String name;
+	int grade;
+	public Student5(String name, int grade) {
+		this.name;
+		this.grade;
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

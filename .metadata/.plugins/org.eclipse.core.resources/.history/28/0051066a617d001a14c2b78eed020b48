@@ -1,0 +1,11 @@
+package com.test2;
+class Database{
+	void open() {System.out.println("open");}
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

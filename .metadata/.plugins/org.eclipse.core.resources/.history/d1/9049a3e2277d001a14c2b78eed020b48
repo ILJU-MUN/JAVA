@@ -1,0 +1,19 @@
+package com.test;
+class Calculator{
+	int add(int a, int b) {
+		 int result = a + b;
+		 return result;
+		
+	}
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+		Calculator ca = new Calculator();
+		ca.add(1, 2);
+		int a = 1;
+		int b = 2;
+		int result = ca.add(a, b);
+	}
+
+}

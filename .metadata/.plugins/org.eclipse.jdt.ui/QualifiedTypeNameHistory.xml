@@ -21,4 +21,5 @@
 <fullyQualifiedTypeName name="Animal"/>
 <fullyQualifiedTypeName name="Cat"/>
 <fullyQualifiedTypeName name="Database"/>
+<fullyQualifiedTypeName name="com.test.Dog"/>
 </qualifiedTypeNameHistroy>

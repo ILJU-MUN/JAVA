@@ -1,0 +1,16 @@
+package com.test;
+
+class Student2{
+	String name;
+	public void setName(String nm) {
+		this.name = nm;
+	}
+}
+public class Test5 {
+
+	public static void main(String[] args) {
+		Student2 stu = new Student2();
+		stu.setName("¿ìÅõ¸®");
+	}
+
+}

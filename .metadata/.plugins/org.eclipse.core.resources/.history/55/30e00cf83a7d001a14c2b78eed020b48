@@ -1,0 +1,11 @@
+package com.test;
+class Man{
+	String name;
+}
+public class P_321 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

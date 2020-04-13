@@ -1,0 +1,29 @@
+package com.test;
+
+class Student5{
+	String name;
+	int age;
+	public Student5(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+}
+class HighStudent5 extends Student5{
+	int grade;
+	public HighStudent5(String name, int age, int grade) {
+		super(name, age);
+		this.grade = grade;
+	}
+	void setNameAge(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+}
+public class Test11 {
+
+	public static void main(String[] args) {
+		HighStudent5 stu = new HighStudent5("ȫ�浿", 20, 1);
+		
+	}
+
+}
