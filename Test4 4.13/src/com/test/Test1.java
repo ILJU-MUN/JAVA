@@ -21,6 +21,7 @@ public class Test1 {
 		Dog d  = new Dog();
 		Dog d2 = new Dog(2, "‹¯Ä¥ÀÌ");
 		int s = d.hungry();
+		System.out.println(s);
 		
 	}
 }

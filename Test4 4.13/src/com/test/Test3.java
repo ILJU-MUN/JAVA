@@ -22,6 +22,7 @@ class Calculator{
 		int result = a + b + c;
 		return result;
 	}
+	
 
 }
 public class Test3 {
