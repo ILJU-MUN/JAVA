@@ -1,6 +1,6 @@
 package com.test;
 
-public class Workshop_2_Array2 {
+public class Test1 {
 
 	public static void main(String[] args) {
 		String[] student1 = {"A", "B", "A", "C", "C", "D", "E", "F", "A", "D"};

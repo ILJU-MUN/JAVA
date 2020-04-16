@@ -27,7 +27,6 @@
 <fullyQualifiedTypeName name="com.test.MiddleStudent"/>
 <fullyQualifiedTypeName name="com.test.MiddleStudent4"/>
 <fullyQualifiedTypeName name="com.test.Student4"/>
-<fullyQualifiedTypeName name="com.test.MyClass"/>
 <fullyQualifiedTypeName name="com.test.BusinessMan"/>
 <fullyQualifiedTypeName name="com.test.MyClass3"/>
 <fullyQualifiedTypeName name="com.test.MyClass4"/>
@@ -36,7 +35,6 @@
 <fullyQualifiedTypeName name="com.test.Student5"/>
 <fullyQualifiedTypeName name="com.test.Student5.HighStudent5"/>
 <fullyQualifiedTypeName name="com.test.Animal.Dogg"/>
-<fullyQualifiedTypeName name="com.test.Animal"/>
 <fullyQualifiedTypeName name="com.test.Dog"/>
 <fullyQualifiedTypeName name="com.test.Animal2.Dog2"/>
 <fullyQualifiedTypeName name="com.test.Dog2"/>
@@ -44,11 +42,19 @@
 <fullyQualifiedTypeName name="com.test.Animal2"/>
 <fullyQualifiedTypeName name="com.test2.A"/>
 <fullyQualifiedTypeName name="com.test2.CheeseCake"/>
-<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="java.nio.channels.NetworkChannel"/>
 <fullyQualifiedTypeName name="com.test2.Cake"/>
 <fullyQualifiedTypeName name="com.test2.CheeseCake2"/>
 <fullyQualifiedTypeName name="com.test2.Cake2"/>
 <fullyQualifiedTypeName name="com.test2.Execl"/>
 <fullyQualifiedTypeName name="com.test2.Data"/>
+<fullyQualifiedTypeName name="com.test.BBSItem"/>
+<fullyQualifiedTypeName name="com.test.Animal"/>
+<fullyQualifiedTypeName name="com.test.B"/>
+<fullyQualifiedTypeName name="com.test.GoldPaperBox"/>
+<fullyQualifiedTypeName name="com.test.PaperBox"/>
+<fullyQualifiedTypeName name="com.test.MyClass"/>
+<fullyQualifiedTypeName name="com.test.Box"/>
+<fullyQualifiedTypeName name="com.test.Box2"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 </qualifiedTypeNameHistroy>
