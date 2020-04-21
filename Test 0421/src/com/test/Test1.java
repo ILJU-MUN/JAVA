@@ -1,6 +1,7 @@
 package com.test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -15,6 +16,9 @@ public class Test1 {
 		List<String> l4 = new Stack<String>();
 		l1.add("one");
 		l1.add("two");
+		l1.add("tree");
+		l1.add("apple");
+		
 		
 		Iterator<String> ltr = l1.iterator();
 		while(ltr.hasNext()) {
@@ -24,6 +28,11 @@ public class Test1 {
 		for(int inx = 0; inx < l1.size(); inx++) {
 			System.out.println(l1.get(inx));
 		}
+		for(String s : l1) {
+			System.out.println(s);
+		}
+		System.out.println("-----------------------");
+		Collections.sort(l1);
 		for(String s : l1) {
 			System.out.println(s);
 		}
